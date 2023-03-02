@@ -1,10 +1,10 @@
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     .navbar__menu--hidden {
         display: none;
     }
     .header {
         background-image: radial-gradient(transparent, rgb(0,0,0, 0.6)),url(../imgs/pageheader-1920w.jpg);
-        height: 80vh;
+        height: 45vh;
         width: 100%;
         background-repeat: no-repeat;
         display: block;
@@ -17,20 +17,36 @@
         background-color: white;
     }
     .navbar__logo {
-        top: 5%;
+        top: 1%;
         position: absolute;
     }
     .hamburger-menu {
         background-color: white;
         width: 100%;
     }
+    .navbar__menu {
+        background-color: #eb6c27;
+        height: 20vh;
+    }
+    .nav-item {
+        list-style-type: none;
+        margin: 1.9vh;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+        color: white;
+    }
     .header p {
         color: white;
         font-weight: 850;
         text-align: center;
-        top: 50vh;
+        top: 30vh;
         position: relative;
         font-size: 1.5em;
+    }
+    .hamburger-menu-list {
+        top: 50px;
     }
     .header .btn {
         display: none;
